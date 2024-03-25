@@ -2,32 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: InterBlack;
+  src: url("../public/font/InterBlack.ttf");
+}
+@font-face {
+  font-family: InterBold;
+  src: url("../public/font/InterBold.ttf");
+}
+@font-face {
+  font-family: InterMedium;
+  src: url("../public/font/InterMedium.ttf");
+}
+@font-face {
+  font-family: InterRegular;
+  src: url("../public/font/InterRegular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+
+@layer base {
+  body {
+    @apply dark:bg-[#161616] bg-[#ffffff] transition-all ease-in duration-200;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* .marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+} */
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  /* will-change: transform; */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
 }
