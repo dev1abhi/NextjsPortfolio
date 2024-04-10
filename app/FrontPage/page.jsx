@@ -105,7 +105,7 @@ function Frontpage()
           Making Impactful experiences with beauty and function. Currently ,
           looking for new opportunities to collaborate with people.
         </p>
-        <p className="mt-6 dark:text-neutral-300 max-sm:text-sm font-InterMedium">
+        <p className="mt-6 mb-6 dark:text-neutral-300 max-sm:text-sm font-InterMedium">
           My objective is straightforward, to create exceptional things
           alongside exceptional individuals. By collaborating harmoniously, we
           can accomplish this goal.
