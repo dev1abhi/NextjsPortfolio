@@ -111,9 +111,14 @@ function Frontpage()
           can accomplish this goal.
         </p>
 
-        <button className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
+{/*         <button className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
           View resume
-        </button>
+        </button> */}
+
+            <a href="https://drive.google.com/file/d/1fzPkDh1ZGJHPiQumYMSWg5HAjffOOmZI/view?usp=sharing" class="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
+  View resume
+</a>
+
       </div>
 
 {/* Project animation */}
