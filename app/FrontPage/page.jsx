@@ -124,7 +124,7 @@ function Frontpage()
           View resume
         </button> */}
 
-            <a href="https://drive.google.com/file/d/1xbHbTGmcT9SWP45IXnWYyqfZUZYS9qVf/view?usp=sharing" class="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
+            <a href="https://drive.google.com/file/d/1xbHbTGmcT9SWP45IXnWYyqfZUZYS9qVf/view?usp=sharing" className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
   View resume
 </a>
 
@@ -224,6 +224,8 @@ function Frontpage()
              
             </div>
           </motion.div>
+
+
           <div className="bg-gradient-to-l absolute top-0 right-0 z-20 dark:from-[#161616] dark:via-[#161616] from-[#fff] via-[#fff] to-transparent w-16 rounded-md h-9 transition-all ease-in duration-200" />
         </div>
       </div>
