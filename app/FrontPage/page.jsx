@@ -124,7 +124,7 @@ function Frontpage()
           View resume
         </button> */}
 
-            <a href="https://drive.google.com/file/d/1fzPkDh1ZGJHPiQumYMSWg5HAjffOOmZI/view?usp=sharing" class="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
+            <a href="https://drive.google.com/file/d/1xbHbTGmcT9SWP45IXnWYyqfZUZYS9qVf/view?usp=sharing" class="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
   View resume
 </a>
 
