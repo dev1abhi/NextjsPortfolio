@@ -35,6 +35,15 @@ const projects = [
 
   let link = [
     {
+      date: "May 2024 - June 2024",
+      imgLink: "/img/nalco.png",
+      title: "Software Developer Intern",
+      sub: "NALCO,Bhubaneswar",
+      subTitle:
+        "Developed a desktop application for the company's internal use, which helped in managing the company's data and resources.",
+      bttn: "View my work",
+    },
+    {
       date: "May 2023 - Till Now",
       imgLink: "/img/acm.png",
       title: "App Developer , Senior Core",

@@ -7,7 +7,9 @@ import {
   SiReact,
   SiMongodb,
   SiExpress,
-  SiTwitter
+  SiTwitter,
+  SiElectron,
+  SiMicrosoftsqlserver
 } from "react-icons/si";
 import Image from "next/image";
 
@@ -57,12 +59,12 @@ function Aboutpage() {
           <h4 className="font-InterBold">My Stack</h4>
 
           <div className="flex gap-x-8 justify-around  mt-16">
-            <SiFlutter className="text-2xl" />
+            <SiFlutter className="text-2xl text-[#3294be] " />
             <SiExpress className="text-[#00005F] text-2xl" />
             <SiReact className="text-[#00BDFD] text-2xl" />
             <SiMongodb className="text-[#00DA4C] text-2xl" />
-            <SiExpress className="text-[#5264FA] text-2xl" />
-            <SiTwitter className="text-2xl" />
+            <SiElectron className="text-[#d8ef43] text-2xl" />
+            <SiMicrosoftsqlserver className="text-[#CC2929] text-2xl" />
           </div>
         </div>
       </div>
