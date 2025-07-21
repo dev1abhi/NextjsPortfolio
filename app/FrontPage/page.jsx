@@ -10,28 +10,30 @@ import Statuspage from "../Status/page";
 
 const projects = [
     {
-      imgLink: "/img/bingflix.png",
-      date:2024,
-      title: "BingeFlix Website : Movie Streaming/Exploring",
-      subT: "I have utilized the capabilities of HTML5, CSS, JS & TMDB API to build a interactive and user-friendly website, having all the functionalities of searching, exploring, streaming movies & series through 3rd party web-scraper APIs.",
-      githubLink: "https://github.com/dev1abhi/Bingflix-Website"
-    },
-    {
-      imgLink: "/img/pro1.jpeg",
-      date:2023,
-      title:"ViTMail : Email Service App",
-      subT: "implementing the Gmail API Service to fetch the mails to the app and Google’s Gemini model to summarize the mails through AI",
-      githubLink: "https://github.com/dev1abhi/ViTMail"
-
-    },
-    {
-      imgLink: "/img/gymbuddy.png",
-      date:2024,
-      title: "Gym Buddy : A MERN based application",
-      subT: "Developed a Gym Training Website using React, Express, Node, MongoDB enabling users to create personalized workout routines",
-      githubLink: "https://github.com/dev1abhi/Gym-Buddy"
-    },
-  ];
+    imgLink: "/img/CAP.png",
+    date: 2025,
+    title: "Capacity Advisor for Monitoring Resources",
+    subT:
+      "Interned at HPE to build a capacity advisor for monitoring resources like Kafka using Prometheus, JMX exporter and Node exporter . Stress tested Kafka host server across CPU, memory, disk, and network I/O. Helped design an ML model to predict Kafka crashes via JMX/Node metrics.",
+    githubLink: "https://github.com/dev1abhi/Capacity-Advisor-for-Monitoring-Resources",
+  },
+  {
+    imgLink: "/img/bingflix.png",
+    date: 2024,
+    title: "BingFlix.com : OTT Streaming Platform",
+    subT:
+      "Built a full-stack OTT platform using React, Tailwind CSS, JavaScript, and Node.js, powered by the TMDB API. Integrated streaming through 3rd-party scrapers, features a CI/CD pipeline with Jenkins, Docker, Helm, and Kubernetes. Achieved 27+ stars on GitHub.",
+    githubLink: "https://github.com/dev1abhi/Bingflix-Website",
+  },
+  {
+    imgLink: "/img/vitmail.png",
+    date: 2023,
+    title: "ViTMail : Email Service App",
+    subT:
+      "Collaborated on a college-focused Flutter app using Gmail API to fetch emails and Google's Gemini model to summarize them, reducing reading time.",
+    githubLink: "https://github.com/dev1abhi/ViTMail", 
+  },
+];
 
   let link = [
     {
@@ -110,14 +112,10 @@ function Frontpage()
           About Me
         </h3>
         <p className="dark:text-neutral-300  font-InterMedium  mt-3">
-          I’m crafting exceptional webapp  products that blend Design and Engineering.
-          Making Impactful experiences with beauty and function. Currently ,
-          looking for new opportunities to collaborate with people.
+          As a backend engineer with a passion for devops, I’m driven by the challenge of creating technology that feels extensible and maintainable. My work on platform like Bingflix and my recent exploration into capacity planning, monitoring, and AI based alert systems during my internship reflect my desire to build systems that are not just functional but scalable and resilient.
         </p>
         <p className="mt-6 mb-6 dark:text-neutral-300 max-sm:text-sm font-InterMedium">
-          My objective is straightforward, to create exceptional things
-          alongside exceptional individuals. By collaborating harmoniously, we
-          can accomplish this goal.
+           I believe the next generation of software will be powered by thoughtful automation, intelligent feedback, and relentless iteration and I’m here for it.
         </p>
 
 {/*         <button className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
@@ -321,10 +319,10 @@ function Frontpage()
           assisting with any queries you may have.
         </p>
 
-        <p className="mt-4">
+        <p className="text-lg mt-4">
           Additionally, I love discussing forgotten or unfinished projects and
           exploring the fascinating topic of how artificial intelligence could
-          potentially dominate the world.
+          potentially dominate the world!!
         </p>
       </div>
 

@@ -3,13 +3,16 @@ import React from "react";
 import { TbArrowBackUp, TbBrandVscode } from "react-icons/tb";
 import {
   SiFlutter,
-  SiKotlin,
+  SiPrometheus,
   SiReact,
   SiMongodb,
-  SiExpress,
-  SiTwitter,
-  SiElectron,
-  SiMicrosoftsqlserver
+  SiNodedotjs,
+  SiDocker,
+  SiKubernetes,
+  SiLinux,
+  SiApachekafka,
+  SiJenkins,
+  SiAmazonaws
 } from "react-icons/si";
 import Image from "next/image";
 
@@ -39,32 +42,47 @@ function Aboutpage() {
           <h4 className="my-11 font-InterBold">How it all started</h4>
 
           <p className="my-9">
-          Exploring different fields during my first year of college, coding quickly caught my attention. I joined some Tech Clubs, eager to immerse myself in the world of software development. As I delved deeper into programming, I found it to be an incredibly dynamic and rewarding pursuit. The ability to create something tangible from lines of code fascinated me, and I was drawn to the endless possibilities it offered.Being part of Tech Clubs provided me with a supportive community of like-minded individuals who shared my passion for technology. Collaborating on projects, attending workshops, and participating in coding competitions fueled my enthusiasm and accelerated my learning journey. I found joy in solving problems, building applications, and experimenting with new technologies.
+          Exploring different fields during my first year of college, software development quickly caught my attention by
+          seeing stuff made by my seniors. 
+          I joined some Tech Clubs (ACM and ISTE), eager to immerse myself in the world of tech and to learn more. 
+          As I delved deeper into it, I found it to be an incredibly dynamic pursuit. 
+          The ability to create something tangible from lines of code fascinated me, 
+          and I was drawn to the endless possibilities it offered.
+          Though I didn&apos;t remained for long in the clubs due to looming academics, I connected with
+          like-minded individuals during my time there who shared the same passion for technology. 
+          Collaborating on projects, attending hackathons , and participating in 
+          late night tech talks fueled my enthusiasm and accelerated my learning journey. 
+          I found joy in building applications, and experimenting with new tech stacks.
           </p>
 
           <h4 className="my-10 font-InterBold">What&apos;s to come</h4>
 
           <p className="my-10">
-            As an engineer, I have a strong passion for technology and I&apos;m
+            As an cse engineer, I have a strong passion for technology and I&apos;m
             always on the lookout for the latest developments and trends. I&apos;m
-            particularly interested in exploring how design can be integrated
-            with AI to create even better user experiences. In the future, I
-            hope to continue pushing the boundaries of design and technology,
+            particularly interested in exploring how backend systems work behind the scenes,
+            and how companies build scalable and resilient architectures. In the future, I
+            hope to continue pushing the boundaries of technology,
             and to use my skills to create innovative solutions that make a real
-            impact. I&apos;m excited to see where this journey takes me, and I look
-            forward to sharing my experiences and insights along the way. Till
-            then keep iterating!
+            impact to society. I&apos;m excited to see where this journey takes me, and
+            I look forward to sharing my experiences and insights along the way. 
+            Till then keep iterating! 🥸
           </p>
 
           <h4 className="font-InterBold">My Stack</h4>
 
           <div className="flex gap-x-8 justify-around  mt-16">
             <SiFlutter className="text-2xl text-[#3294be] " />
-            <SiExpress className="text-[#00005F] text-2xl" />
             <SiReact className="text-[#00BDFD] text-2xl" />
             <SiMongodb className="text-[#00DA4C] text-2xl" />
-            <SiElectron className="text-[#d8ef43] text-2xl" />
-            <SiMicrosoftsqlserver className="text-[#CC2929] text-2xl" />
+            <SiNodedotjs className="text-[#8CC84B] text-2xl" />
+            <SiPrometheus className="text-[#CC2929] text-2xl" />
+            <SiDocker className="text-[#2496ED] text-2xl" />
+            <SiKubernetes className="text-[#326CE5] text-2xl" />
+            <SiLinux className="text-[#FCC624] text-2xl" />
+            <SiApachekafka className="text-[#285f96] text-2xl" />
+            <SiJenkins className="text-[#D24939] text-2xl" />
+            <SiAmazonaws className="text-[#FF9900] text-2xl" />
           </div>
         </div>
       </div>
