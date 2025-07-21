@@ -14,7 +14,7 @@ const projects = [
     date: 2025,
     title: "Capacity Advisor for Monitoring Resources",
     subT:
-      "Interned at HPE to build a capacity advisor for monitoring resources like Kafka using Prometheus, JMX exporter and Node exporter . Stress tested Kafka host server across CPU, memory, disk, and network I/O. Helped design an ML model to predict Kafka crashes via JMX/Node metrics.",
+      "Interned at HPE to build a capacity advisor for monitoring data pipeline like Kafka using Prometheus, JMX exporter and Node exporter . Stress tested Kafka host server across CPU, memory, disk, and network I/O. Helped design an ML model to predict Kafka crashes via JMX/Node metrics.",
     githubLink: "https://github.com/dev1abhi/Capacity-Advisor-for-Monitoring-Resources",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     date: 2024,
     title: "BingFlix.com : OTT Streaming Platform",
     subT:
-      "Built a full-stack OTT platform using React, Tailwind CSS, JavaScript, and Node.js, powered by the TMDB API. Integrated streaming through 3rd-party scrapers, features a CI/CD pipeline with Jenkins, Docker, Helm, and Kubernetes. Achieved 27+ stars on GitHub.",
+      "Built a full-stack platform using React, Tailwind CSS, JavaScript, and Node.js, powered by the TMDB API. Integrated streaming through 3rd-party scrapers. Achieved 27+ stars on GitHub. features CI/CD pipeline with Jenkins, Docker, Helm, and Kubernetes for testing deployment.",
     githubLink: "https://github.com/dev1abhi/Bingflix-Website",
   },
   {
@@ -46,18 +46,18 @@ const projects = [
       bttn: "View my work",
     },
     {
-      date: "May 2023 - Till Now",
+      date: "May 2023 - Dec 2024",
       imgLink: "/img/acm.png",
-      title: "App Developer , Senior Core",
+      title: "Core Committee",
       sub: "ACM , VIT Vellore",
       subTitle:
         "Collaborated with a team of proficient app developers to create high-quality, production-level applications.",
       bttn: "View my work",
     },
     {
-      date: "June 2023 - Till Now",
+      date: "June 2023 - Oct 2024",
       imgLink: "/img/iste.jpg",
-      title: "App Developer , Senior Core",
+      title: "App Development Team , Senior Core",
       sub: "Indian Society of Technical Education",
       subTitle:
         "Collaborated with a dedicated team to develop a full-stack Flutter application during a project cycle.",
@@ -97,8 +97,8 @@ function Frontpage()
         <h2 className="font-extrabold font-InterBlack dark:text-white text-3xl">
             Abhilash
           </h2>
-          <Link href={"https://twitter.com/harshii04"}>
-            <span className="text-neutral-500 ">@guru_abhie</span>
+          <Link href={"https://github.com/dev1abhi"}>
+            <span className="text-neutral-500 ">@dev1abhi</span>
           </Link>
           <Statuspage isAvailable />
         </div>
@@ -122,7 +122,7 @@ function Frontpage()
           View resume
         </button> */}
 
-            <a href="https://drive.google.com/file/d/1xbHbTGmcT9SWP45IXnWYyqfZUZYS9qVf/view?usp=sharing" className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
+            <a href="https://drive.google.com/file/d/1O6Vx3Mndozjyzzwosdlbz2eoNRgP3-fL/view?usp=sharing" className="mt-10 border border-neutral-700/30 rounded-md p-2 w-full lg:w-44 bg-neutral-800/20 text-sm dark:text-neutral-400 font-semibold">
   View resume
 </a>
 

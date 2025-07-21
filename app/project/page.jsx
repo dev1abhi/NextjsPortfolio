@@ -10,25 +10,56 @@ import { useAnimate, stagger, motion } from "framer-motion";
 import Image from "next/image";
 
 const projects = [
-    {
-      imgLink: "/img/bingflix.png",
-      date:2024,
-      title: "BingeFlix Website : Movie Streaming/Exploring",
-      subT: "I have utilized the capabilities of HTML5, CSS, JS & TMDB API to build a interactive and user-friendly website, having all the functionalities of searching, exploring, streaming movies & series through 3rd party web-scraper APIs.",
-    },
-    {
-      imgLink: "/img/pro1.jpeg",
-      date:2023,
-      title:"ViTMail : Email Service App",
-      subT: "implementing the Gmail API Service to fetch the mails to the app and Google’s Gemini model to summarize the mails through AI",
-    },
-    {
-      imgLink: "/img/gymbuddy.png",
-      date:2024,
-      title: "Gym Buddy : A MERN based application",
-      subT: "Developed a Gym Training Website using React, Express, Node, MongoDB enabling users to create personalized workout routines",
-    },
-  ];
+  {
+    imgLink: "/img/CAP.png",
+    date: 2025,
+    title: "Capacity Advisor for Monitoring Resources",
+    subT:
+      "Interned at HPE to build a capacity advisor for monitoring data pipeline like Kafka using Prometheus, JMX exporter and Node exporter. Stress tested Kafka host server across CPU, memory, disk, and network I/O. Helped design an ML model to predict Kafka crashes via JMX/Node metrics.",
+    link: "https://github.com/dev1abhi/Capacity-Advisor-for-Monitoring-Resources",
+  },
+  {
+    imgLink: "/img/bingflix.png",
+    date: 2024,
+    title: "BingFlix Website : OTT Platform",
+    subT:
+      "Built a full-stack platform using React, Tailwind CSS, JavaScript, and Node.js, powered by the TMDB API. Integrated streaming through 3rd-party scrapers. Achieved 27+ stars on GitHub. Features CI/CD pipeline with Jenkins, Docker, Helm, and Kubernetes for testing deployment.",
+    link: "https://bingflix.vercel.app/",
+  },
+  {
+    imgLink: "/img/lashic.png",
+    date: 2024,
+    title: "Lashic – Music Streaming App",
+    subT:
+      "Built with TypeScript, Lashic offers seamless music streaming with playlist support, search functionality, and a smooth user interface. Designed for discovering and organizing tracks with ease.",
+    link: "https://lashic3.vercel.app/",
+  },
+  {
+    imgLink: "/img/vitmail.png",
+    date: 2023,
+    title: "ViTMail : Email Service App",
+    subT:
+      "Implementing the Gmail API Service to fetch the mails to the app and Google’s Gemini model to summarize the mails through AI.",
+    link: "https://github.com/dev1abhi/ViTMail",
+  },
+  {
+    imgLink: "/img/nfc.jpg",
+    date: 2024,
+    title: "NFC_App – Tag Detection Tool",
+    subT:
+      "A cross-platform Flutter app for reading NFC tags. Useful for automation setups and quick scans, with clean UI and native support.",
+    link: "https://github.com/dev1abhi/NFC_App",
+  },
+  {
+    imgLink: "/img/imagenica.png",
+    date: 2023,
+    title: "Imagenica (VS Code Extension)",
+    subT:
+      "VS Code extension that fetches or generates images from prompts or Unsplash. Streamlines image search and integration into markdown or design workflows.",
+    link: "https://github.com/dev1abhi/imagenica",
+  },
+];
+
 
 function Projpage() {
   const [scope, animate] = useAnimate();
@@ -78,7 +109,7 @@ function Projpage() {
               <div>
                 <div className="w-fit flex items-center gap-x-2 ">
                   <div className=" px-2 py-1 text-xs font-semibold   border rounded-full dark:border-neutral-700">
-                    <span>2022</span>
+                    <span>{each.date}</span>
                   </div>
                   <div className=" flex items-center gap-x-3">
                     <Status
@@ -96,9 +127,11 @@ function Projpage() {
                     {each.subT}
                   </p>
 
-                  <button className="mt-11 border border-neutral-700/30 rounded-xl p-2 px-7 lg:w-44 bg-white dark:bg-neutral-800/10 text-sm dark:text-neutral-400 font-semibold shadow-md">
-                    Read Now
-                  </button>
+                  <Link href={each.link} target="_blank" rel="noopener noreferrer">
+  <button className="mt-11 border border-neutral-700/30 rounded-xl p-2 px-7 lg:w-44 bg-white dark:bg-neutral-800/10 text-sm dark:text-neutral-400 font-semibold shadow-md">
+    Visit Now
+  </button>
+</Link>
                 </div>
               </div>
             </div>
